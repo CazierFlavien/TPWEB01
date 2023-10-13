@@ -1,0 +1,15 @@
+/* Style pour le texte vert de 15px */
+.green-text {
+    color: green;
+    font-size: 15px;
+}
+
+/* Style pour le texte bleu */
+.blue-text {
+    color: rgb(143, 143, 151);
+}
+
+/* Style pour le texte rouge entre les tableaux */
+.red-text {
+    color: red;
+}

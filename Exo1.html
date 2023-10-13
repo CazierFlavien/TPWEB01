@@ -1,21 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Exemple de script JavaScript</title>
+    <meta charset="UTF-8">
+    <title>CV de [CAZIER]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            padding: 0;
+        }
+        .main-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .columns {
+            display: flex;
+        }
+        .left-column {
+            flex-basis: 70%;
+        }
+        .right-column {
+            flex-basis: 30%;
+            text-align: right;
+        }
+        h2 {
+            font-size: 28px;
+            color: #007BFF;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+        strong {
+            font-weight: bold;
+        }
+        ul {
+            list-style: square;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
+    <div class="header">
+        <h1>[CAZIER Flavien]</h1>
+    </div>
+    <div class="main-content">
+        <div class="columns">
+            <div class="left-column">
+                <h2>PROFESSIONAL BACKGROUND</h2>
+                <p><strong>UFOLEP</strong> - AMIENS - February 2018</p>
+                <p>[Description de vos responsabilités et réalisations]</p>
+               
+                <p><strong>EURL GEERAERTS</strong> - L'ETOILE - May 2021 to July 2021</p>
+                <p>Professional training company (power)</p>
+                <ul>
+                    <li>Electrical outlet installation</li>
+                    <li>Cable/wires installation</li>
+                    <li>Electrical boards</li>
+                    <li>Switches and lighting</li>
+                </ul>
+                
+                <h2>DIPLOMAS</h2>
+                <p><strong>GCSE from middle school</strong> - Rosieres en Santerre - September 2015 to June 2019</p>
+                
+                <p><strong>High school Saint Riquier</strong> - Amiens - September 2019 to June 2023</p>
+            </div>
+            <div class="right-column">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p><strong>E-mail:</strong> flavien.cazier@gmail.com</p>
+                    <p><strong>Born:</strong> 06/23/2004</p>
+                    <p><strong>Mobile:</strong> 07.82.53.31.59</p>
+                    <p><strong>Driving licence:</strong> B+Car</p>
+                </div>
+                <h2>HOBBIES</h2>
+                <ul>
+                    <li>[Computer]</li>
+                    <li>[Sport]</li>
+                    <li>[Video games]</li>
+                </ul>
+            </div>
+        </div>
 
-<button id="monBouton">Cliquez-moi !</button>
-
-<script>
-    // Sélectionnez le bouton par son ID
-    var bouton = document.getElementById("monBouton");
-
-    // Ajoutez un gestionnaire d'événement au bouton
-    bouton.addEventListener("click", function() {
-        alert("Bonjour, le bouton a été cliqué !");
-    });
-</script>
-
+        <h2>SKILLS</h2>
+        <ul>
+            <li>Python</li>
+            <li>C</li>
+            <li>PHP</li>
+            <li>Visual Studio Code</li>
+        </ul>
+        
+        <h2>Languages</h2>
+        <ul>
+            <li>[French] - [Native language]</li>
+            <li>[English] - [Middle intermediate B1 level]</li>
+        </ul>
+    </div>
 </body>
 </html>
+
+
+
+
+
+
